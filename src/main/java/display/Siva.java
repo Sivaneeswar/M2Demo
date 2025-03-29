@@ -1,8 +1,10 @@
 package display;
 
-public class Siva {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Siva {
+     @Test
+	public static void main() {
 		System.out.println("Hi iam siva");
 	}
 }
